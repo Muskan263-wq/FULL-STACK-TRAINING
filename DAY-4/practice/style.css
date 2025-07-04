@@ -1,0 +1,59 @@
+/*h1{
+    color: red;
+    
+}
+p{
+    color: royalblue;
+}
+button{
+    color: black;
+}
+body{
+    background-color: aquamarine;
+}
+button{
+    background-color: gray;
+}*/
+/*  universal selector */
+*p{
+    color: pink;
+}
+    /* element selector*/
+h1{
+    color:none;
+}
+/*id selector*/
+   #heading1{
+    color: blue;
+   } 
+   #heading2{
+    color: yellow;
+   }
+   /* class selector i.e multiple ko same style dena ho tto */
+   .myclass{
+    color:brown;
+   }
+
+
+   /*question1*/
+   #box{
+    color: red;
+    background-color: blue;
+   }
+
+   /* question2 */
+   .heading{
+    color: pink;
+   }
+/* or */
+h1,h2,h3{
+    color:red;
+}
+
+
+
+/* question3 */
+
+button{
+    background-color:green;
+}
