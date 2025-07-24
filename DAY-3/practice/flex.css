@@ -1,0 +1,47 @@
+#container{
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    
+}
+div{
+    height: 100px;
+    width: 20%;
+    display: inline-block;
+    border: 2px solid red;
+    /* padding: 5px;
+    margin: 5px; */
+    text-align: center;
+    
+  
+}
+h1{
+    text-align: center;
+    color: red;
+    font-family: arial;
+    }
+#box1{
+    background-color: azure;
+
+}
+#box2{
+    background-color: skyblue;
+height: 200px;
+
+}
+#box3{
+    background-color: yellow;
+    height: 40px;
+}
+#box4{
+    background-color: pink;
+}
+#box5{
+    background-color: peru;
+}

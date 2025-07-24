@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Companies</title>
+    <style>
+    .Companies {
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 80px;
+            margin-right: 50px;
+            gap: 50px;
+            width: 60%;
+            height: 550px;
+            justify-content: center;
+            margin-left: 300px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: xx-large;
+            animation: rotate 3s linear infinite;
+            animation-direction: normal;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(30deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>View Companies</h1>
+    <div class="Companies">
+        <button>
+            <a href="https://en.wikipedia.org/wiki/List_of_Indian_IT_companies">IT Companies</a>
+        </button>
+        <button>
+            <a href="https://en.wikipedia.org/wiki/Financial_technology">Fintech Companies</a>
+        </button>
+        <button>
+            <a href="https://360matchpro.com/best-companies-to-approach-for-sponsorships/">Sponsored Companies</a>
+        </button>
+        <button>
+            <a href="https://tracxn.com/d/companies/featured/__0oIsc7aMIPqbgFHV0JvE2r7TqmI9O1mcUCE6ygoxyVs">Featured Companies</a>
+        </button>
+        <button>
+            <a href="https://www.naukri.com/product-companies-in-india-cat106?title=Product%20companies%20actively%20hiring&src=gnbCompanies_homepage_srch">Product Based Companies</a>
+        </button>
+        <button>
+            <a href="https://en.wikipedia.org/wiki/Startup_company">Startup Companies</a>
+        </button>
+    </div>
+</body>
+</html>

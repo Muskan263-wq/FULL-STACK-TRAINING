@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color:black;
+    margin-bottom: 30px;
+}
+#input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="password"]
+{
+    width: 30%;
+
+    border: 1px solid black;
+    border-radius:2%;
+    box-sizing: border-box;
+    padding: 5px;
+     display: flex;
+    justify-content: center;
+    
+}
+#button{
+    cursor: pointer;
+    width: 30%;
+    box-shadow: inset;
+    background-color: rgb(85, 159, 189);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    border: 1px solid rgb(169, 227, 250);
+}
+button:hover {
+  background-color: #144566;
+}
